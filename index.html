@@ -818,6 +818,45 @@
 
 }
 
+.exe-btn {
+
+  width: 100%;
+
+  max-width: 650px;
+
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0078d4,
+      #005a9e
+    );
+
+  border: none;
+
+  box-shadow:
+    0 0 25px rgba(0,120,212,0.4);
+
+}
+
+.exe-btn:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 0 40px rgba(0,120,212,0.6);
+
+}
+
+.exe-btn i {
+
+  margin-right: 10px;
+
+  font-size: 22px;
+
+}
+
 /* MINI FEATURES */
 
 .download-features {
@@ -1530,52 +1569,62 @@
       from our official recommended platform.
 
     </p>
+<div class="download-buttons">
 
-    <div class="download-buttons">
+  <!-- INDUS APP -->
 
-      <!-- MAIN BUTTON -->
+  <a href="https://indusapp.store/hm0akxfw"
+    class="btn indus-btn">
 
-      <a href="https://indusapp.store/hm0akxfw"
-        class="btn indus-btn">
+    <div class="btn-content">
 
-        <div class="btn-content">
+      <div class="btn-icon">
+        <i class="fa-solid fa-bolt"></i>
+      </div>
 
-          <div class="btn-icon">
-            <i class="fa-solid fa-bolt"></i>
-          </div>
+      <div class="btn-text">
 
-          <div class="btn-text">
+        <span class="small-text">
+          Recommended Platform
+        </span>
 
-            <span class="small-text">
-              Recommended
-            </span>
+        <span class="big-text">
+          Download Via Indus Appstore
+        </span>
 
-            <span class="big-text">
-              Download Via Indus
-            </span>
-
-          </div>
-
-        </div>
-
-        <div class="btn-arrow">
-          <i class="fa-solid fa-arrow-right"></i>
-        </div>
-
-      </a>
-
-      <!-- SECONDARY -->
-
-      <a href="https://github.com/sohamart/C.R-Time-Pro/releases/download/project/app-release.4.apk"
-        class="btn apk-btn">
-
-        <i class="fa-solid fa-download"></i>
-
-        Direct APK Download
-
-      </a>
+      </div>
 
     </div>
+
+    <div class="btn-arrow">
+      <i class="fa-solid fa-arrow-right"></i>
+    </div>
+
+  </a>
+
+  <!-- APK -->
+
+  <a href="https://github.com/sohamart/C.R-Time-Pro/releases/download/project/app-release.4.apk"
+    class="btn apk-btn">
+
+    <i class="fa-brands fa-android"></i>
+
+    Direct APK Download
+
+  </a>
+
+  <!-- WINDOWS EXE -->
+
+  <a href="https://github.com/sohamart/MinorProject/releases/download/v1.0.0/C.R.Time.Pro.Setup.1.0.0.exe"
+    class="btn exe-btn">
+
+    <i class="fa-brands fa-windows"></i>
+
+    Download Windows EXE
+
+  </a>
+
+</div>
 
     <div class="download-features">
 
